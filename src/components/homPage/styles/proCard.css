@@ -1,0 +1,46 @@
+.prodcard{
+    width: 250px;
+    border: 1 px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prodcard__img {
+    position: relative;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prodcard__img img:first-child {
+    opacity: 1;
+    transition: opacity .5s;
+  }
+  
+  .prodcard__img:hover img:first-child {
+    opacity: 0;
+    transition: opacity .5s;
+  }
+  
+  .prodcard__img img:last-child {
+    position: absolute;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity .5s;
+  }
+  
+  .prodcard__img:hover img:last-child {
+    opacity: 1;
+    transition: opacity .5s;
+  }
+  
+.prodcard__buttons {
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px;
+
+}

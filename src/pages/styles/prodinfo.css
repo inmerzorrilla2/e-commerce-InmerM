@@ -1,0 +1,4 @@
+.prodinfo{
+    display: flex;
+    flex-wrap: wrap;
+}

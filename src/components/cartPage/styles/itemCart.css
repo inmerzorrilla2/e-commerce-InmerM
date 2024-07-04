@@ -1,0 +1,28 @@
+.itemcart {
+    display: grid;
+    border: 1px solid;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1 fr, 2 fr, 1 fr;
+    place-items: center;
+    gap: 10px;
+}
+
+.itemcart__button{
+    display: flex;
+    
+}
+
+.itemcart__img{
+    grid-column: span 3;
+}
+
+.itemcart__button > span{
+    grid-column: span 3;
+    
+}
+
+.itemcart__total{
+    grid-column: span 3;
+}
